@@ -28,7 +28,7 @@ export default async function PostPage({ params }: PostPageProps) {
   }
 
   return (
-    <article className="container mx-auto py-6 prose dark:prose-invert max-w-3xl">
+    <article className="container mx-auto py-6 max-w-3xl">
       <h1 className="mb-2">{post.title}</h1>
       {post.desc ? (
         <p className="text-xl mt-0 text-muted-foreground">{post.desc}</p>
