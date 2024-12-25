@@ -2,10 +2,10 @@
  * 博客配置
  */
 export const siteConfig = {
-  name: 'fruitsdrinkBlog',
-  url: 'http://localhost:3000',
+  name: "水果饮料",
+  url: "http://localhost:3000",
   description: "Nextjs 15 blog use velite, tailwind and shadcn",
-  _author: 'fruitsdrink',
+  _author: "fruitsdrink",
   get author() {
     return this._author;
   },
@@ -13,10 +13,10 @@ export const siteConfig = {
     this._author = value;
   },
   links: {
-    github: '',
-    twitter: '',
-    personalSite: ''
-  }
-}
+    github: "",
+    twitter: "",
+    personalSite: "",
+  },
+};
 
-export type SiteConfig = typeof siteConfig
+export type SiteConfig = typeof siteConfig;

@@ -22,7 +22,16 @@ export default function MainNav() {
           pathName === "/blog" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        Blog
+        文章
+      </Link>
+      <Link
+        href={"/document"}
+        className={cn(
+          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
+          pathName === "/document" ? "text-foreground" : "text-foreground/60"
+        )}
+      >
+        文档
       </Link>
       <Link
         href={"/about"}
@@ -31,7 +40,7 @@ export default function MainNav() {
           pathName === "/about" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        About
+        关于
       </Link>
     </nav>
   );
